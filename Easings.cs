@@ -255,7 +255,6 @@ static public class Easings
 	/// </summary>
 	static public float SineEaseOut(float p)
 	{
-		Debug.Log(p);
 		return Math.Sin(p * HALFPI);
 	}
 	
